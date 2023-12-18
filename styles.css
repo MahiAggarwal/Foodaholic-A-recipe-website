@@ -1,0 +1,195 @@
+#img1{
+    height:90vh;
+    width:60vw;
+}
+
+#about{
+    color:white;
+    font-size: large;
+    font-family: cursive;
+
+}
+
+#list{
+    font-size: larger;
+    font-family: cursive;
+    font-weight: bold;
+    color:#B5FFFC;
+}
+
+#navlist{
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    align-items: center;
+    width:100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100%;
+background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.navcontainer{
+    width:100%;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+nav{
+    width:100%;
+    overflow-x: none;
+    padding-bottom: 2rem;
+}
+
+#navlogo{
+    margin-right: auto;
+    font-size: 2.8rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover{
+    color:#051937;
+}
+
+#navitems{
+    display: flex;
+    gap:20px;
+   
+}
+
+.footerbox{
+    color:azure;
+    width:100%;
+    min-height: 40px;
+    text-align: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.footerbox p{
+    color:azure;
+    font-size: 1rem;
+}
+
+.contentbox{
+    width:98%;
+    margin:auto;
+     border:2px solid black; 
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+     background-color: white; 
+     box-sizing: border-box; 
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box; 
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.leftbox h2{
+    background-color: #FFDEE9;
+    color:black;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+width:200px;
+    
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.leftbox h3{
+    color:black;
+}
+
+.rightbox{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s linear 0s ;
+    box-shadow: 1px 1px 10px rgba(189, 225, 230, 0.658);
+    border-radius: 20px;
+}
+.rightbox img{
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+    height: 300px;
+    width:500px;
+}
+
+.rightbox:hover{
+    transform: scale(1.1);
+}
+
+.ingbox{
+    font-size: 1.3rem;
+}
+
+.recipebox{
+    font-size: 1.1rem;
+}
+
+.rightbox .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+}
+
+.rightbox:hover .overlay{
+    opacity: 1;
+}
+.rightbox .overlay span{
+    color: black;
+    font-size: 1.2rem;
+}
+
+#contact{
+    width:30%;
+    height:70%;
+}
+
+#fname,#lname,#email{
+    font-size: 30px;;
+}
+
+#form{
+    color:rgb(0, 255, 136);
+    font-size: larger;
+    font-size: 40px;
+}
